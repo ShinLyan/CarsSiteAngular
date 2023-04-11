@@ -49,7 +49,7 @@
     <div class="car-items">
       <div class="car-item" *ngFor="let car of carsData">
         <div class="car-item-image">
-          <img src="../assets/images/{{ car.image }}" alt="{{ car.image }}" />
+          <img src="{{ car.image }}" alt="{{ car.image }}" />
         </div>
 
         <div class="car-item-title">{{ car.name }}</div>
